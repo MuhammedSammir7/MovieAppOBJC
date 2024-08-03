@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81B1EF892C5E99B300D8446F /* MovieDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1EF882C5E99B300D8446F /* MovieDetailsVC.m */; };
 		81D289CF2C445D9200482EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D289CE2C445D9200482EA1 /* AppDelegate.m */; };
 		81D289D22C445D9200482EA1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D289D12C445D9200482EA1 /* SceneDelegate.m */; };
 		81D289D82C445D9200482EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D289D62C445D9200482EA1 /* Main.storyboard */; };
@@ -24,6 +25,8 @@
 		4FC130EA4FAB12815500BB4E /* Pods-MovieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.release.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.release.xcconfig"; sourceTree = "<group>"; };
 		681789178B79E5AF99F744AE /* Pods-MovieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.debug.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.debug.xcconfig"; sourceTree = "<group>"; };
 		74DA06EA6451A39BA2D52777 /* Pods_MovieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B1EF872C5E99B300D8446F /* MovieDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDetailsVC.h; sourceTree = "<group>"; };
+		81B1EF882C5E99B300D8446F /* MovieDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDetailsVC.m; sourceTree = "<group>"; };
 		81D289CA2C445D9200482EA1 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D289CD2C445D9200482EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81D289CE2C445D9200482EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,7 +73,6 @@
 				681789178B79E5AF99F744AE /* Pods-MovieApp.debug.xcconfig */,
 				4FC130EA4FAB12815500BB4E /* Pods-MovieApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,6 +114,8 @@
 				81D289ED2C4465DC00482EA1 /* HomeViewController.m */,
 				81D289EF2C44692900482EA1 /* MoviesCell.h */,
 				81D289F02C44692900482EA1 /* MoviesCell.m */,
+				81B1EF872C5E99B300D8446F /* MovieDetailsVC.h */,
+				81B1EF882C5E99B300D8446F /* MovieDetailsVC.m */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -232,6 +236,7 @@
 			files = (
 				81D289EB2C44646000482EA1 /* Movies.m in Sources */,
 				81D289E82C445E4300482EA1 /* Networking.m in Sources */,
+				81B1EF892C5E99B300D8446F /* MovieDetailsVC.m in Sources */,
 				81D289CF2C445D9200482EA1 /* AppDelegate.m in Sources */,
 				81D289E02C445D9500482EA1 /* main.m in Sources */,
 				81D289F12C44692900482EA1 /* MoviesCell.m in Sources */,

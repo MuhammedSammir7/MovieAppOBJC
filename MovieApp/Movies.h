@@ -11,13 +11,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Movies : NSObject
 {
-    NSString *movie;
-    int year;
-    NSString *relese_date;
-    NSString *director;
-    NSString *movie_duration;
-    NSURL *poster;
 }
+@property (nonatomic, strong) NSString *movie;
+@property (nonatomic, assign) int year;
+@property (nonatomic, strong) NSString *release_date;
+@property (nonatomic, strong) NSString *director;
+@property (nonatomic, strong) NSString *movie_duration;
+@property (nonatomic, strong) NSURL *poster;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 @end
 
 NS_ASSUME_NONNULL_END

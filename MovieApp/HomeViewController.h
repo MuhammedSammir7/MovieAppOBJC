@@ -5,17 +5,16 @@
 //  Created by ios on 14/07/2024.
 //
 
+// HomeViewController.h
 #import <UIKit/UIKit.h>
-#import "Networking.h"
-NS_ASSUME_NONNULL_BEGIN
+#import "Movies.h"
+#import "MoviesCell.h"
+#import "MovieDetailsVC.h"
+#import <SDWebImage/SDWebImage.h>
 
-@interface HomeViewController : UIViewController <NSURLConnectionDelegate,NSURLConnectionDataDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface HomeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@property Networking *networking;
-@property NSMutableData *data;
-@property NSMutableArray *movies;
-
+@property (nonatomic, strong) NSMutableArray<Movies *> *movies;
+@property (nonatomic, strong) NSMutableData *data;
 
 @end
-
-NS_ASSUME_NONNULL_END
